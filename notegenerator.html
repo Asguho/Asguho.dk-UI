@@ -87,12 +87,16 @@
       </div>
       <!-- input -->
       <div class="p-8">
-        <textarea placeholder="Type here" class="textarea w-full"></textarea>
+        <textarea
+          id="fagordtextarea"
+          placeholder="Type here"
+          class="textarea w-full"
+        ></textarea>
       </div>
 
       <div class="hero"><button class="btn btn-primary">generate</button></div>
       <!--table-->
-      <div class="overflow-x-auto p-8">
+      <div class="overflow-x-auto p-8" id="display">
         <table class="table w-full">
           <!-- head -->
           <thead>
@@ -134,6 +138,8 @@
           <button class="btn loading">loading</button>
         </div>
       </template>
+      <!--script-->
+      <script src="script.js" async defer></script>
     </div>
   </body>
 </html>

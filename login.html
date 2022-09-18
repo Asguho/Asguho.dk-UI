@@ -109,7 +109,12 @@
               </label>
             </div>
             <div class="form-control mt-6">
-              <button class="btn btn-warning">Login with Google</button>
+              <input
+                type="button"
+                class="btn btn-warning"
+                onclick="location.href=\'https://accounts.google.com/o/oauth2/v2/auth?response_type=code&client_id=459130407637-b3os51r78oub66d5n5uohnio2a5ku8gs.apps.googleusercontent.com&scope=openid%20email&redirect_uri=https%3A//www.asguho.dk/cgi/login/google&access_type=offline\';"
+                value="Login with Google"
+              />
             </div>
             <div class="form-control mt-6">
               <button class="btn btn-primary">Login</button>
