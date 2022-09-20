@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="https://www.asguho.dk/style.css" />
+        <title>Triangle Calculator</title>
+    </head>
+    <body>
+        <!--#include virtual="/apache-components/header.html" -->
+        <!-- form -->
+        <main class="bg-base-200">
+          <form class="form-control p-4" id="frm1">
+            <label class="label">
+                <span class="label-text">Sides</span>
+            </label>
+            <label class="input-group p-2">
+                <span>a</span>
+                <input name="a" type="text" placeholder="" class="input input-bordered" />
+            </label>
+            <label class="input-group p-2">
+                <span>b</span>
+                <input name="b" type="text" placeholder="" class="input input-bordered" />
+            </label>
+            <label class="input-group p-2">
+                <span>c</span>
+                <input name="c" type="text" placeholder="" class="input input-bordered" />
+            </label>
+
+            <label class="label">
+                <span class="label-text">Angles</span>
+            </label>
+            <label class="input-group p-2">
+                <span>A</span>
+                <input name="A" type="text" placeholder="" class="input input-bordered" />
+            </label>
+            <label class="input-group p-2">
+                <span>B</span>
+                <input name="B" type="text" placeholder="" class="input input-bordered" />
+            </label>
+            <label class="input-group p-2">
+                <span>C</span>
+                <input name="C" type="text" placeholder="" class="input input-bordered" />
+            </label>
+            <input class="btn btn-primary" type="button" onclick="myFunction()" value="Calculate" />
+          </form>
+          <!--output-->
+          <p class="bg-base-100 m-4" id="outputText"></p>
+        </main>        
+        <!--#include virtual="/apache-components/footer.html" -->
+        <script src="script.js" async defer></script>
+    </body>
+</html>

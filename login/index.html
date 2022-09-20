@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="https://www.asguho.dk/style.css" />
+    <title>Asguho Login</title>
+  </head>
+  <body>
+    <!--#include virtual="/apache-components/header.html" -->   
+    <main class="bg-base-200 my-4">
+      <!-- login -->
+      <div class="hero min-h-screen">
+        <div class="hero-content flex-col lg:flex-row-reverse">
+          <section class="text-center lg:text-left">
+            <h1 class="text-5xl font-bold">Login now!</h1>
+            <p class="py-6 max-w-md">
+              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+              excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
+              a id nisi.
+            </p>
+          </section>
+          <section class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+            <div class="card-body">
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">Email</span>
+                </label>
+                <input
+                  type="text"
+                  placeholder="email"
+                  class="input input-bordered"
+                />
+              </div>
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">Password</span>
+                </label>
+                <input
+                  type="text"
+                  placeholder="password"
+                  class="input input-bordered"
+                />
+                <label class="label">
+                  <a href="#" class="label-text-alt link link-hover"
+                    >Forgot password?</a
+                  >
+                </label>
+              </div>
+              <div class="form-control mt-6">
+                <input
+                  type="button"
+                  class="btn btn-warning"
+                  onclick="location.href='https://accounts.google.com/o/oauth2/v2/auth?response_type=code&client_id=459130407637-b3os51r78oub66d5n5uohnio2a5ku8gs.apps.googleusercontent.com&scope=openid%20email&redirect_uri=https%3A//www.asguho.dk/cgi/login/google&access_type=offline';"
+                  value="Login with Google"
+                />
+              </div>
+              <div class="form-control mt-6">
+                <button class="btn btn-primary">Login</button>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <!--#include virtual="/apache-components/footer.html" -->        
+  </body>
+</html>
