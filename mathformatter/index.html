@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="https://www.asguho.dk/style.css" />
+    <title>MathFormatter</title>
+  </head>
+  <body>
+    <!--#include virtual="/apache-components/header.html" -->
+    <main class="bg-base-200 my-4">
+      <div class="hero min-h-screen">
+        <div class="hero-content flex-col lg:flex-row-reverse">
+          <section class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+            <div class="card-body">
+              <form
+                action="/cgi/pdf"
+                method="POST"
+                enctype="multipart/form-data"
+                class="form-control"
+              >
+                <div class="form-control">
+                  <label class="label">
+                    <span class="label-text">Input pdf</span>
+                  </label>
+                  <input name="file" class="file-input file-input-bordered" type="file" />
+                </div>
+                <div class="form-control">
+                  <label class="label">
+                    <span class="label-text">Output format</span>
+                  </label>
+                  <select name="outputFormat" class="input input-bordered" id="">
+                    <option value="mw">maple(.mw)</option>
+                    <option value="json">JSON(.json)</option>
+                    <option value="docx">word(.docx)</option>
+                    <option value="tns">ti-nspire(.tns)</option>
+                    <option value="html">html(.html)</option>
+                    <option value="md">markdown(.md)</option>
+                    <option value="txt">text(.txt)</option>
+                  </select>
+                </div>
+                <div class="form-control">
+                  <label class="cursor-pointer label">
+                    <span class="label-text">Download file</span>
+                    <input
+                      type="checkbox"
+                      name="download"
+                      value="true"
+                      checked="checked"
+                      class="checkbox checkbox-accent"
+                    />
+                  </label>
+                </div>
+                <div class="form-control mt-6">
+                  <input type="submit" class="btn btn-primary" value="submit" />
+                </div>
+              </form>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!--#include virtual="/apache-components/footer.html" -->
+  </body>
+</html>
