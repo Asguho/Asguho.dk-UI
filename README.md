@@ -7,7 +7,8 @@ Css:
 - https://tailwindcss.com/
 - https://daisyui.com/
 - https://flowbite.com/
-- 
+- https://www.hyperui.de
+
 Svg:
 - https://undraw.co/
 - https://icons.getbootstrap.com/
