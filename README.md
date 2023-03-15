@@ -15,3 +15,7 @@ Svg:
 
 Image:
 - https://shots.so
+- https://pixabay.com/
+- https://unsplash.com/
+- https://www.pexels.com/
+- https://www.freeimages.com/
