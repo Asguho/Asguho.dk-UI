@@ -20,3 +20,6 @@ Image:
 - https://unsplash.com/
 - https://www.pexels.com/
 - https://www.freeimages.com/
+
+color:
+- https://realtimecolors.com/
