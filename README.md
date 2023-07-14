@@ -13,6 +13,7 @@ Svg:
 - https://undraw.co/
 - https://icons.getbootstrap.com/
 - https://www.svgrepo.com/
+- https://heroicons.com/
 
 Image:
 - https://shots.so
