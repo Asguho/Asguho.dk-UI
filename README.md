@@ -8,12 +8,16 @@ Css:
 - https://daisyui.com/
 - https://flowbite.com/
 - https://www.hyperui.dev/
+- https://unocss.dev/
+- https://windicss.org/
 
 Svg:
 - https://undraw.co/
 - https://icons.getbootstrap.com/
 - https://www.svgrepo.com/
 - https://heroicons.com/
+- https://joypixels.com/emoji
+- https://icones.js.org/
 
 Image:
 - https://shots.so
